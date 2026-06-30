@@ -1,0 +1,5 @@
+variable,label,unit,notes
+hhid,Synthetic household identifier,household,Expected unique within baseline after resolving intentional duplicates
+eligible_baseline,Eligible according to baseline targeting rule,household,PMT <= 48 or household has member with disability
+payment_delay_days,Days between scheduled and actual payment,household-cycle,Missing for failed payments and non-beneficiaries
+flag_any_quality_issue,Any data quality issue detected,household,"Constructed from duplicates, range, payment, survey-log, and back-check flags"

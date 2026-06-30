@@ -1,0 +1,4 @@
+provider,eligible_cycles,failed_payment_rate,underpayment_rate,mean_delay_days
+LumoraPay,1256,5.0159235,0,3.8725901
+MobileCash,1084,6.3653135,2.7675276,6.6187191
+PostBank,632,4.113924,0,3.9438944

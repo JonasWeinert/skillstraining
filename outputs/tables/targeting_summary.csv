@@ -1,0 +1,7 @@
+indicator,value,unit
+Baseline households,1200,households
+Eligible at baseline,808,households
+Coverage among eligible,92.07920792079209,percent
+Exclusion among eligible,7.920792079207921,percent
+Leakage to ineligible,8.673469387755102,percent
+Follow-up response rate,93.83333333333333,percent

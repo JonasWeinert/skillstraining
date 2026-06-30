@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Policy"
+  short_description: "Human-in-the-loop discipline for development data agent work."
+  default_prompt: "Use this policy to decide when to ask, default, document, or proceed."
