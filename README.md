@@ -50,8 +50,7 @@ needed for the current exercise into `.agents/skills/`.
 
 See [.agents/README.md](.agents/README.md) for role-specific copy commands.
 
-This structure keeps the exercise honest: participants can run a baseline
-prompt first, then activate the relevant skill set and compare the difference.
+You can run a baseline prompt first, then activate the relevant skill set and compare the difference.
 
 Managers:
 
