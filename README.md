@@ -4,6 +4,10 @@ This repository is a synthetic World Bank-style coding-agent training project.
 It teaches how reusable agent skills improve output on realistic development
 research and operations tasks.
 
+Participants who cannot use `git` can download
+`lumora-agent-skills-training-demo.zip` from the repository root and unzip it
+locally.
+
 The mock study is the **Lumora Family Support Grant Evaluation**, a fictional
 cash transfer program with baseline, follow-up, payment, field visit, survey
 log, and back-check data.
