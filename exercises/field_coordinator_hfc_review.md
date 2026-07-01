@@ -72,17 +72,15 @@ cp -R skills/development-data-caution .agents/skills/
 
 ## Step 4: Try With Skills
 
-Give the agent this prompt:
+Give the agent the same task prompt again, adding only the instruction to use
+the local skills:
 
 ```text
-Use the local field-data-quality-hfc and development-data-caution skills.
-Review data/raw/households_followup.csv, data/raw/payments.csv,
-data/raw/survey_logs.csv, data/raw/backchecks.csv, and
-data/raw/field_visits.csv. Produce outputs/qa_reports/hfc_summary.md and
-outputs/tables/field_followup_list.csv. Separate completeness, distribution,
-consistency, survey-specific, and field-validation checks. Distinguish
-data-entry issues, implementation bottlenecks, and cases requiring human
-review.
+Use the local project skills.
+
+Review the Lumora follow-up data in data/raw and tell me what field issues need
+follow-up before the next payment cycle. Create a short summary and a follow-up
+list.
 ```
 
 ## Step 5: Compare

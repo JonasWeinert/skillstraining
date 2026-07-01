@@ -38,8 +38,15 @@ the agent's behavior.
 
 ## 4. Re-Run With Skills
 
-Use the skill-enabled prompt from the exercise file. The task should be the same
-substantive task, but with instructions to use local project skills.
+Use the same task prompt from the first round, adding only:
+
+```text
+Use the local project skills.
+```
+
+Do not add extra requirements in the second-round prompt. Any additional
+standards should come from the activated skills, so the comparison tests the
+skills rather than a more detailed prompt.
 
 ## 5. Compare Outputs
 
@@ -60,4 +67,3 @@ Discuss:
 | Logged assumptions and caveats |  |  |  |
 | Produced role-appropriate output |  |  |  |
 | Avoided unsupported causal claims |  |  |  |
-

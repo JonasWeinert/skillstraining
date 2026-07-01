@@ -65,14 +65,14 @@ cp -R skills/development-data-caution .agents/skills/
 
 ## Step 4: Try With Skills
 
-Give the agent this prompt:
+Give the agent the same task prompt again, adding only the instruction to use
+the local skills:
 
 ```text
-Use the local reproducible-development-data-analysis and development-data-caution
-skills. Inspect the raw data and codebook, then run or adapt the Stata pipeline
-under code/stata. Validate IDs, check duplicates, document merge cardinality,
-construct the household panel, regenerate the core tables and Stata figures,
-and summarize assumptions that need human review.
+Use the local project skills.
+
+Run the Lumora analysis from the raw data. Clean the data, create the household
+panel, and regenerate the tables and figures.
 ```
 
 ## Step 5: Compare

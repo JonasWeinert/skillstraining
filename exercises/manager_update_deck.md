@@ -73,16 +73,15 @@ cp -R skills/development-data-caution .agents/skills/
 
 ## Step 4: Try With Skills
 
-Give the agent this prompt:
+Give the agent the same task prompt again, adding only the instruction to use
+the local skills:
 
 ```text
-Use the local project skills. Inspect code/stata/MasterDoFile.do and the
-downstream do-files first. Then inspect decks/baseline_round1_deck.pptx,
-outputs/tables, and outputs/figures. Update the baseline deck with follow-up
-evidence and write outputs/qa_reports/deck_update_log.md mapping each changed
-slide to the table or figure supporting it. Do not hand-type numbers that
-already exist in generated outputs. Use cautious language for descriptive
-welfare changes.
+Use the local project skills.
+
+Update decks/baseline_round1_deck.pptx with the new Lumora follow-up findings
+using the tables and figures in outputs/. Create an updated deck and briefly
+summarize what changed.
 ```
 
 ## Step 5: Compare

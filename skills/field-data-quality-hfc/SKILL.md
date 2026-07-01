@@ -42,6 +42,7 @@ Use this skill to produce actionable field follow-up outputs. It is based on the
 
 - Use back-checks and field visits to prioritize cases.
 - Treat unresolved high-severity visits as urgent.
+- Classify each priority issue as a data-entry issue, implementation bottleneck, or human-review case.
 
 ## Output Requirements
 
@@ -52,8 +53,12 @@ Produce:
 - ranked enumerator, district, or provider tables;
 - concise field actions for the next payment cycle.
 
+The follow-up list should include enough information for field teams to act,
+but it should not imply misconduct from a data flag alone. Separate actions
+that can be checked in survey/admin records from actions that require supervisor,
+provider, or field-team review.
+
 Use:
 
 - [references/hfc-checklist.md](references/hfc-checklist.md) for the full DQA checklist.
 - [examples/hfc-review-prompt.md](examples/hfc-review-prompt.md) for a realistic participant prompt.
-

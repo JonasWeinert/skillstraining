@@ -23,7 +23,7 @@ Use `wb-do-file-reader` first when the deck depends on analysis scripts.
 5. Preserve valid baseline context; replace stale or unsupported claims.
 6. Insert figures/tables from generated output paths.
 7. Add or update caveats where evidence is descriptive.
-8. Write an update log in `outputs/qa_reports/`.
+8. Write `outputs/qa_reports/deck_update_log.md`.
 
 ## Mock Brand Guidance
 
@@ -41,10 +41,10 @@ Before finalizing:
 - render or inspect the deck;
 - check title wrapping, footer consistency, and figure readability;
 - verify every number on updated slides is traceable to an output file;
+- verify `outputs/qa_reports/deck_update_log.md` maps every changed slide to its source table or figure;
 - ensure descriptive welfare results are not framed causally.
 
 Use:
 
 - [references/update-log-template.md](references/update-log-template.md) for the required log.
 - [examples/deck-update-prompt.md](examples/deck-update-prompt.md) for a realistic participant prompt.
-
