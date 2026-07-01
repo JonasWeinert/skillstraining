@@ -43,6 +43,16 @@ Expected outputs include:
 
 ## Participant Tasks
 
+Each exercise uses the same before/after workflow:
+
+1. clear `.agents/skills/` and run the task with a general coding agent;
+2. evaluate the output against the exercise checklist;
+3. copy in only the role-specific skills;
+4. run the same substantive task again;
+5. compare what changed and what still needs human judgment.
+
+See `exercises/comparison_prompts.md` for the shared scorecard.
+
 ## Skill Setup
 
 The source skills live in `skills/`. For the workshop, copy only the skills
